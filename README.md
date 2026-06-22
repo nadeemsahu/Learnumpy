@@ -1,27 +1,54 @@
 ﻿# Learnumpy
 
-A friendly Python playground for learning NumPy with clear examples, hands-on exercises, and reusable code snippets.
+A friendly Python playground for learning NumPy with clear examples, hands-on demos, and reusable code snippets.
 
-## What you'll find here
+## Repo structure
 
-- Guided NumPy examples for array creation, manipulation, and computation
-- Practical demos for beginners and intermediate learners
-- Easy-to-follow Python files organized by topic
+- `1.conversion from other python structures/`
+  - `1.py` — convert nested Python lists into NumPy arrays and inspect `dtype` and `shape`
+  - `2.py` — create a 1D NumPy array with a specified integer dtype
+  - `3.py` — create a 2D single-row NumPy array and access elements
+  - `4.py` — convert a nested list into a 2D NumPy array
 
-## Why this repo
+- `2.intrinsic numpy array creation objects/`
+  - `1.py` — create arrays of zeros with `np.zeros`
+  - `2.py` — generate a range of values with `np.arange`
+  - `3.py` — create evenly spaced values with `np.linspace`
+  - `4.py` — allocate an uninitialized array with `np.empty`
+  - `5.py` — create an array with the same shape as another using `np.empty_like`
+  - `6.py` — build an identity matrix with `np.identity`
+  - `7.py` — reshape a 1D array into a 2D array with `reshape`
 
-NumPy is the foundation of scientific Python. This project turns abstract concepts into bite-sized code, so you can build confidence fast and explore powerful array operations.
+- `3.numpy axis/`
+  - `1.py` — sum values along axis 0 and axis 1
+  - `2.py` — transpose a 2D array with `arr.T`
+  - `3.py` — iterate over array elements with `arr.flat`
+  - `4.py` — show array metadata: `ndim`, `size`, `nbytes`
+  - `5.py` — use `argmax`, `argmin`, and `argsort` on a 1D array
+  - `6.py` — use axis-aware `argmax`, `argmin`, and `argsort` on a 2D array
+  - `7.py` — add and multiply two 2D arrays element-wise
+  - `8.py` — find positions with `np.where`
+  - `9.py` — count nonzero values and find nonzero positions
+  - `10.py` — compare Python list memory usage with NumPy array memory usage
 
-## Start learning
+- `tempCodeRunnerFile.py` — scratch/demo file demonstrating set conversion to a NumPy array.
 
-1. Open a file from the folder `intrinsic numpy array creation objects`
-2. Run the examples in your Python interpreter
-3. Modify the code to see how NumPy behaves with different arrays
+## Getting started
 
-## Keep exploring
+1. Activate the virtual environment:
+   - `.\.venv\Scripts\Activate.ps1`
 
-- Try combining array creation patterns with indexing and slicing
-- Add your own examples for broadcasting, reshaping, and mathematical functions
-- Use this repo as a study reference or a quick NumPy refresher
+2. Run an example file:
+   - `python "1.conversion from other python structures\1.py"`
+   - `python "2.intrinsic numpy array creation objects\3.py"`
+   - `python "3.numpy axis\7.py"`
+
+3. Modify the code and rerun it to explore NumPy behavior.
+
+## Learn by doing
+
+- Change array values and shapes to see how operations behave
+- Try broadcasting, indexing, slicing, and arithmetic across arrays
+- Add your own example files for new NumPy functions
 
 Happy learning! 🚀
