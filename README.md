@@ -1,14 +1,14 @@
-﻿# Learnumpy
+# Learnumpy
 
 A friendly Python playground for learning NumPy with clear examples, hands-on demos, and reusable code snippets.
 
 ## Repo structure
 
 - `1.conversion from other python structures/`
-  - `1.py` — convert nested Python lists into NumPy arrays and inspect `dtype` and `shape`
-  - `2.py` — create a 1D NumPy array with a specified integer dtype
-  - `3.py` — create a 2D single-row NumPy array and access elements
-  - `4.py` — convert a nested list into a 2D NumPy array
+  - `1.py` — create a 1D NumPy array with a specified integer dtype
+  - `2.py` — create a 2D single-row NumPy array and access elements
+  - `3.py` — convert a nested Python list into a 2D NumPy array
+  - `4.py` — convert a Python set into a NumPy array
 
 - `2.intrinsic numpy array creation objects/`
   - `1.py` — create arrays of zeros with `np.zeros`
@@ -31,7 +31,7 @@ A friendly Python playground for learning NumPy with clear examples, hands-on de
   - `9.py` — count nonzero values and find nonzero positions
   - `10.py` — compare Python list memory usage with NumPy array memory usage
 
-- `tempCodeRunnerFile.py` — scratch/demo file demonstrating set conversion to a NumPy array.
+- `tempCodeRunnerFile.py` — scratch/demo file printing array dtype and shape.
 
 ## Getting started
 
